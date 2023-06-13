@@ -1,4 +1,5 @@
-# Chronicle 3p Ingestion Scripts
+# GCP -> Chronicle Ingestion Example
+
 
 ### Deploying the cloud function
 
@@ -6,7 +7,7 @@ Execute the following command from inside the previously created directory to
 deploy the cloud function.
 
 ```
-gcloud functions deploy <FUNCTION NAME> --entry-point main --trigger-http --runtime python39 --env-vars-file .env.yml
+gcloud functions deploy <FUNCTION NAME> --entry-point main --trigger-http --runtime python39 
 ```
 
 ### Setting the required runtime environment variables
